@@ -19,9 +19,6 @@
 
 Recently announced the [Challenge **Avail's Light Client Lift-Off**](https://lightclient.availproject.org/). Now officially just participate and get a chance to win community rewards and smite the first NFT for completed quests.
 
-### QUEST DEADLINE: APRIL 9TH! Don't delay, it is quite possible that this NFT is one of Avail's drop multipliers.
-
-
 ##### What we will need?
 
 - A server of the desired configuration;
