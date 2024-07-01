@@ -1,5 +1,4 @@
-# AvailSetupTheNode
-Avail project description + instructions for setting up the node
+# Avail
 ![hF4a1-NCaYapF4MfsOims](https://github.com/Mozgiii9/AvailSetupTheNode/assets/74683169/e5a2243e-b754-4401-bb8a-6dfc47879233)
 
 # Avail. Project breakdown + installing Light node + doing quests. Let's go!
@@ -33,7 +32,7 @@ Recently announced the [Challenge **Avail's Light Client Lift-Off**](https://lig
 - Patience, because [crane](https://faucet.avail.tools/) lags terribly.
 **Let's start by installing the node.
 
-**1. Update the contents of the server
+**1. Update the contents of the server**
 
 ```
 sudo apt update && sudo apt upgrade -y
