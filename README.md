@@ -1,6 +1,6 @@
 ![hF4a1-NCaYapF4MfsOims](https://github.com/Mozgiii9/AvailSetupTheNode/assets/74683169/e5a2243e-b754-4401-bb8a-6dfc47879233)
 
-# Avail. Project breakdown + installing Light node + doing quests. Let's go!
+# Avail. Project breakdown + installing Light node. Let's go!
 
 **Avail** is a decentralized data availability layer designed to support next generation blockchain applications and sovereign Rollups.
 
