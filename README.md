@@ -1,4 +1,3 @@
-# Avail
 ![hF4a1-NCaYapF4MfsOims](https://github.com/Mozgiii9/AvailSetupTheNode/assets/74683169/e5a2243e-b754-4401-bb8a-6dfc47879233)
 
 # Avail. Project breakdown + installing Light node + doing quests. Let's go!
@@ -56,4 +55,61 @@ Logs will appear, sooner or later there will be an error that the node was crash
 
 ```
 rm -rf /root/.avail/data
+```
+
+```
+screen -S node
+```
+
+```
+sudo nano availscript.sh
+```
+
+An empty file will open. Paste the code there, you don't need to replace anything:
+
+```
+#!/bin/bash
+# the official command of the Avail script by daningyn.
+COMMAND="curl -sL1 avail.sh | bash"
+# Here's the script to force LC to restart when it gets errors
+while true; do echo "Starting command: $COMMAND"
+    # Run the command in the background
+    bash -c "$COMMAND" &
+    PID=$!
+    wait $PID; EXIT_STATUS=$?
+    if [ $EXIT_STATUS -eq 0 ]; then 
+        echo "The command completed successfully. Restart..."
+    else 
+        echo "The command failed with the status $EXIT_STATUS. Restart..."
+    fi
+    sleep 10
+done
+```
+
+![image](https://github.com/Mozgiii9/AvailSetupTheNode/assets/74683169/e027441b-f15b-46a9-a846-686351e0d701)
+
+*What does the script do? The Avail node is quite problematic, and considering that everyone is now running to aboot this NFT - it started crashing even more often. The script monitors the state of the node and reloads it if an error occurs.*
+
+**When inserted, press CTRL + X - Next press Y - Enter**.
+
+**And then press CTRL + A + D (exit this screen session). The terminal will clear and we can move on to the next step.**
+
+**5. Next, execute the command and go to notepad and copy our Seed Phrase, then save it to a safe place:**
+
+```
+nano .avail/identity/identity.toml
+```
+
+![image](https://github.com/Mozgiii9/AvailSetupTheNode/assets/74683169/5a7c961d-c9e9-4fc0-84fc-7f7616caa11c)
+
+**MEMBERS ONLY! Copy the Seed Phrase carefully.**
+
+**6. Once copied, press CTRL + X on the keyboard. After that, start the node with a series of commands (enter one by one):**
+
+```
+rm -rf /root/.avail/data/LOCK
+```
+
+```
+bash availscript.sh
 ```
