@@ -113,5 +113,5 @@ bash availscript.sh
 
 ![image](https://github.com/Mozgiii9/AvailSetupTheNode/assets/74683169/ca2cfede-6e8f-4315-993b-e81a08ad614d)
 
-### Done! We don't touch or check anything else, if the node goes down, the script we installed will automatically restart it. In the meantime.
+### Done! We don't touch or check anything else, if the node goes down, the script we installed will automatically restart it.
 ## Be sure to do your own reserch of projects before installing a node. Remember, by researching, you learn and grow.
