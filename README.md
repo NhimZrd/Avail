@@ -9,8 +9,8 @@
 **Investors: Founders Fund, DragonFly Capital, Balaji Srinivasan and more.**
 
 **Server Specifications:** 
-- *4CPU/8RAM/300SSD/Ubuntu 22.04 - recommended.
-- *2CPU/4RAM/40SSD/Ubuntu 22.04 - minimum.
+- *4CPU/8RAM/300SSD/Ubuntu 22.04 - recommended.*
+- *2CPU/4RAM/40SSD/Ubuntu 22.04 - minimum.*
 
 **References:**
 - [Web-site](https://www.availproject.org/)
@@ -25,7 +25,7 @@ Recently announced the [Challenge **Avail's Light Client Lift-Off**](https://lig
 - An installed SubWallet or any other Polkadot related wallet. Link to download SubWallet - [GOOGLE](https://www.subwallet.app/downl).
 - Discord, Telegram, Twitter - a typical set of cryptan;
 - Patience, because [crane](https://faucet.avail.tools/) lags terribly.
-**Let's start by installing the node.
+**Let's start installing the node.**
 
 **1. Update the contents of the server**
 
@@ -86,7 +86,7 @@ done
 
 *What does the script do? The Avail node is quite problematic, and considering that everyone is now running to aboot this NFT - it started crashing even more often. The script monitors the state of the node and reloads it if an error occurs.*
 
-**When inserted, press CTRL + X - Next press Y - Enter**.
+**When inserted, press CTRL + X - Next press Y - Enter.**
 
 **And then press CTRL + A + D (exit this screen session). The terminal will clear and we can move on to the next step.**
 
@@ -98,7 +98,7 @@ nano .avail/identity/identity.toml
 
 ![image](https://github.com/Mozgiii9/AvailSetupTheNode/assets/74683169/5a7c961d-c9e9-4fc0-84fc-7f7616caa11c)
 
-**MEMBERS ONLY! Copy the Seed Phrase carefully.**
+**Copy the Seed Phrase carefully.**
 
 **6. Once copied, press CTRL + X on the keyboard. After that, start the node with a series of commands (enter one by one):**
 
@@ -109,3 +109,8 @@ rm -rf /root/.avail/data/LOCK
 ```
 bash availscript.sh
 ```
+*Copy the Public Key from here and save it the same way.
+
+![image](https://github.com/Mozgiii9/AvailSetupTheNode/assets/74683169/ca2cfede-6e8f-4315-993b-e81a08ad614d)
+
+### Done! We don't touch or check anything else, if the node goes down, the script we installed will automatically restart it. In the meantime.
